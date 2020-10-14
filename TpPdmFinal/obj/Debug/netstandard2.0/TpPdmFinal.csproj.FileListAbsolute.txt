@@ -1,0 +1,7 @@
+C:\Users\Lucas\source\repos\TpPdmFinal\TpPdmFinal\bin\Debug\netstandard2.0\TpPdmFinal.deps.json
+C:\Users\Lucas\source\repos\TpPdmFinal\TpPdmFinal\bin\Debug\netstandard2.0\TpPdmFinal.dll
+C:\Users\Lucas\source\repos\TpPdmFinal\TpPdmFinal\obj\Debug\netstandard2.0\TpPdmFinal.csprojAssemblyReference.cache
+C:\Users\Lucas\source\repos\TpPdmFinal\TpPdmFinal\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Lucas\source\repos\TpPdmFinal\TpPdmFinal\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Lucas\source\repos\TpPdmFinal\TpPdmFinal\obj\Debug\netstandard2.0\TpPdmFinal.AssemblyInfoInputs.cache
+C:\Users\Lucas\source\repos\TpPdmFinal\TpPdmFinal\obj\Debug\netstandard2.0\TpPdmFinal.AssemblyInfo.cs
