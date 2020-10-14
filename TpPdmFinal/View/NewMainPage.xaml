@@ -6,11 +6,13 @@
         <StackLayout>
             <Button 
                 x:Name="Cadastrar"
-                Text="Cadastrar"/>
+                Text="Cadastrar"
+                Clicked="OnCreate"/>
 
             <Button 
                 x:Name="Visualizar"
-                Text="Visualizar"/>
+                Text="Visualizar"
+                Clicked="OnView"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

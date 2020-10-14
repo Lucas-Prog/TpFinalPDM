@@ -1,10 +1,10 @@
 ﻿using SQLite;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using Xamarin.Forms;
 using TpPdmFinal.Data;
-using SQLite;
 using System.Security.Cryptography;
 
 namespace TpPdmFinal.Model

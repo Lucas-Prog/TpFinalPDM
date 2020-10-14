@@ -5,3 +5,13 @@ C:\Users\Lucas\source\repos\TpPdmFinal\TpPdmFinal\obj\Debug\netstandard2.0\App.x
 C:\Users\Lucas\source\repos\TpPdmFinal\TpPdmFinal\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\Lucas\source\repos\TpPdmFinal\TpPdmFinal\obj\Debug\netstandard2.0\TpPdmFinal.AssemblyInfoInputs.cache
 C:\Users\Lucas\source\repos\TpPdmFinal\TpPdmFinal\obj\Debug\netstandard2.0\TpPdmFinal.AssemblyInfo.cs
+C:\Users\Lucas\source\repos\TpPdmFinal\TpPdmFinal\bin\Debug\netstandard2.0\ref\TpPdmFinal.dll
+C:\Users\Lucas\source\repos\TpPdmFinal\TpPdmFinal\bin\Debug\netstandard2.0\TpPdmFinal.pdb
+C:\Users\Lucas\source\repos\TpPdmFinal\TpPdmFinal\obj\Debug\netstandard2.0\View\Create.xaml.g.cs
+C:\Users\Lucas\source\repos\TpPdmFinal\TpPdmFinal\obj\Debug\netstandard2.0\View\NewMainPage.xaml.g.cs
+C:\Users\Lucas\source\repos\TpPdmFinal\TpPdmFinal\obj\Debug\netstandard2.0\TpPdmFinal.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\source\repos\TpPdmFinal\TpPdmFinal\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Lucas\source\repos\TpPdmFinal\TpPdmFinal\obj\Debug\netstandard2.0\TpPdmFinal.dll
+C:\Users\Lucas\source\repos\TpPdmFinal\TpPdmFinal\obj\Debug\netstandard2.0\ref\TpPdmFinal.dll
+C:\Users\Lucas\source\repos\TpPdmFinal\TpPdmFinal\obj\Debug\netstandard2.0\TpPdmFinal.pdb
+C:\Users\Lucas\source\repos\TpPdmFinal\TpPdmFinal\obj\Debug\netstandard2.0\View\View.xaml.g.cs

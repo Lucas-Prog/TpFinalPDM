@@ -10,10 +10,10 @@ namespace TpPdmFinal.ViewModel
     {
         public Mercadoria_ViewModel() { }
         #region Propriendades
-        public string name { get; set; }
-        public float wheight { get; set; }
-        public string prodName { get; set; }
-        public string prodEmail { get; set; }
+        public string Name { get; set; }
+        public float Wheight { get; set; }
+        public string ProdName { get; set; }
+        public string ProdEmail { get; set; }
         public string NCM { get; set; }
 
         public List<Mercadoria> Mercadorias
