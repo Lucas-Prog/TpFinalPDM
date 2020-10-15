@@ -4,15 +4,33 @@
              x:Class="TpPdmFinal.View.ViewMerc">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="{Binding }"/>
-            <Label Text="{Binding }"/>
-            <Label Text="{Binding }"/>
-            <Label Text="{Binding }"/>
-            <Label Text="{Binding }"/>
-
             <StackLayout>
-                <Button />
-                <Button />
+                <Label Text="Nome do Produto" FontSize="10"/>
+                <Label x:Name="lblName" FontSize="25"/>
+            </StackLayout>
+
+            <StackLayout Margin="10">
+                <Label Text="Peso do Produto" FontSize="10"/>
+                <Label x:Name="lblPeso" FontSize="25"/>
+            </StackLayout>
+
+            <StackLayout Margin="10">
+                <Label Text="Nome do Produtor" FontSize="10"/>
+                <Label x:Name="lblProdName" FontSize="25"/>
+            </StackLayout>
+
+            <StackLayout Margin="10">
+                <Label Text="E-mail do Produtor" FontSize="10"/>
+                <Label x:Name="lblProdEmail" FontSize="25"/>
+            </StackLayout>
+
+            <StackLayout Margin="10">
+                <Label Text="NCM" FontSize="10"/>
+                <Label x:Name="lblNCM" FontSize="25"/>
+            </StackLayout>
+            <StackLayout>
+                <Button Text="Editar" Clicked="OnEditTapped"/>
+                <Button Text="Excluir" Clicked="OnDeleteTapped"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

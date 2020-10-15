@@ -41,21 +41,20 @@ namespace TpPdmFinal.View
                 NCM = NCM.Text,
                 Id = mercId
             };
-            limpar();
+            Limpar();
             App.MercadoriaModel.SalvarMercadoria(mercadoria);
             Navigation.PopAsync();
         }
 
         public void OnCancel(object sender, EventArgs e)
         {
-            limpar();
+            Limpar();
             Navigation.PopAsync();
         }
 
-        public void limpar()
+        public void Limpar()
         {
-            mercName.Text = prodName.Text = prodEmail.Text = NCM.Text = string.Empty;
-            mercHeight.Text = string.Empty;
+            mercName.Text = prodName.Text = prodEmail.Text = NCM.Text = mercHeight.Text = string.Empty;
         }
     }
 }

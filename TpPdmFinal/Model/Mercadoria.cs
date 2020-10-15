@@ -52,19 +52,27 @@ namespace TpPdmFinal.Model
             }
         }
 
-        public Mercadoria GetMercadoria(int Id)
+        public Mercadoria GetMercadoria(int ID)
         {
             lock (locker)
             {
-                return database.Table<Mercadoria>().Where(c => c.Id == Id).FirstOrDefault();
+                return database.Table<Mercadoria>().Where(c => c.Id == ID).FirstOrDefault();
             }
         }
 
-        public int RemoverAluno(int id)
+        public int UpdateMercadoria(Mercadoria merc)
         {
             lock (locker)
             {
-                return database.Delete<Mercadoria>(Id);
+                return database.Update(merc);
+            }
+        }
+
+        public int RemoverMercadoria(int ID)
+        {
+            lock (locker)
+            {
+                return database.Delete<Mercadoria>(ID);
             }
         }
         #endregion
