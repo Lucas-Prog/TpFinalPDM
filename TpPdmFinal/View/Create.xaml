@@ -5,7 +5,7 @@
     <ContentPage.Content>
         <StackLayout>
             <Entry x:Name="mercName" Placeholder="Nome da Mercadoria" />
-            <Entry x:Name="mercHeight" Placeholder="Peso da Mercadoria" />
+            <Entry x:Name="mercHeight" Placeholder="Peso da Mercadoria" Keyboard="Numeric"/>
             <Entry x:Name="prodName" Placeholder="Nome do Produtor" />
             <Entry x:Name="prodEmail" Placeholder="E-mail do Produtor" />
             <Entry x:Name="NCM" Placeholder="NCM" />

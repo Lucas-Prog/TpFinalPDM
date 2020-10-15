@@ -12,7 +12,6 @@ using Android.Views;
 using Android.Widget;
 using TpPdmFinal.Droid;
 using TpPdmFinal.Data;
-using Android.Graphics;
 
 [assembly: Xamarin.Forms.Dependency(typeof(SQLite_Android))]
 

@@ -7,13 +7,15 @@
             <ListView 
                 x:Name="lstMercadorias"
                 ItemsSource="{Binding Mercadorias}"
-                SeparatorVisibility="Default">
+                ItemTapped="OnMercTapped"
+                SeparatorVisibility="Default"
+                RowHeight="55">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
                             <StackLayout>
-                                <Label Text="{Binding Name}" Font="20"/>
-                                <Label Text="{Binding Wheight}" Font="10"/>
+                                <Label Text="{Binding name}" Font="20"/>
+                                <Label Text="{Binding prodName}" Font="10"/>
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>

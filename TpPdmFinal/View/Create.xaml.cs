@@ -18,6 +18,18 @@ namespace TpPdmFinal.View
             InitializeComponent();
         }
 
+        public Create(int Id)
+        {
+            InitializeComponent();
+            var mercadoria = App.MercadoriaModel.GetMercadoria(Id);
+            mercName.Text = mercadoria.name;
+            mercHeight.Text = mercadoria.wheight.ToString();
+            prodName.Text = mercadoria.prodName;
+            prodEmail.Text = mercadoria.prodEmail;
+            NCM.Text = mercadoria.NCM;
+            mercId = mercadoria.Id;
+        }
+
         public void OnSave(object sender, EventArgs e)
         {
             TpPdmFinal.Model.Mercadoria mercadoria = new TpPdmFinal.Model.Mercadoria()
@@ -26,7 +38,8 @@ namespace TpPdmFinal.View
                 wheight = float.Parse(mercHeight.Text),
                 prodName = prodName.Text,
                 prodEmail = prodEmail.Text,
-                NCM = NCM.Text
+                NCM = NCM.Text,
+                Id = mercId
             };
             limpar();
             App.MercadoriaModel.SalvarMercadoria(mercadoria);

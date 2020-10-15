@@ -5,7 +5,7 @@ using SQLite;
 
 namespace TpPdmFinal.Data
 {
-    interface ISqLite
+    public interface ISQLite
     {
         SQLiteConnection GetConexao();
     }

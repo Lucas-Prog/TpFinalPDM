@@ -13,7 +13,7 @@ namespace TpPdmFinal.Model
     {
         public Mercadoria()
         {
-            database = DependencyService.Get<ISqLite>().GetConexao();
+            database = DependencyService.Get<ISQLite>().GetConexao();
             database.CreateTable<Mercadoria>();
         }
 
