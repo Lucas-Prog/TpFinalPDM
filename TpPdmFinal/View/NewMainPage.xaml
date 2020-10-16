@@ -13,6 +13,27 @@
                 x:Name="Visualizar"
                 Text="Visualizar"
                 Clicked="OnView"/>
+
+            <StackLayout VerticalOptions="EndAndExpand">
+                <Label 
+                    Text="Projeto Desenvolvido Por:" 
+                    FontSize="11"
+                    FontAttributes="Bold"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="End"/>
+                <Label 
+                    Text="Uerriton José" 
+                    FontSize="25"
+                    TextColor="Aquamarine"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="End"/>
+                <Label 
+                    Text="Lucas Marques" 
+                    FontSize="25"
+                    TextColor="Aquamarine"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="End"/>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

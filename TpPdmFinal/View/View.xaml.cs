@@ -16,13 +16,19 @@ namespace TpPdmFinal.View
         Mercadoria_ViewModel vmMercadoria;
         public View()
         {
-            vmMercadoria = new Mercadoria_ViewModel();
-            BindingContext = vmMercadoria;            
+            //vmMercadoria = new Mercadoria_ViewModel();
+            //BindingContext = vmMercadoria;            
             InitializeComponent();
         }
          private void OnMercTapped(object sender, ItemTappedEventArgs args)
         {
             Navigation.PushAsync(new ViewMerc(args.Item as Mercadoria));
+        }
+
+        protected override void OnAppearing()
+        {
+            vmMercadoria = new Mercadoria_ViewModel();
+            BindingContext = vmMercadoria;
         }
     }
 }

@@ -20,14 +20,8 @@ namespace TpPdmFinal.View
 
         public ViewMerc(Mercadoria merc)
         {
-            mercadoria = merc;
+            mercadoria = App.MercadoriaModel.GetMercadoria(merc.Id);
             InitializeComponent();
-
-            lblName.Text = mercadoria.name;
-            lblPeso.Text = mercadoria.wheight.ToString();
-            lblProdEmail.Text = mercadoria.prodEmail;
-            lblProdName.Text = mercadoria.prodName;
-            lblNCM.Text = mercadoria.NCM;
         }
 
         private void OnEditTapped(object sender, EventArgs args)
@@ -39,6 +33,22 @@ namespace TpPdmFinal.View
         {
             App.MercadoriaModel.RemoverMercadoria(mercadoria.Id);
             Navigation.PopAsync();
+        }
+
+        private void setData()
+        {
+            lblName.Text = mercadoria.name;
+            lblPeso.Text = mercadoria.wheight.ToString();
+            lblProdEmail.Text = mercadoria.prodEmail;
+            lblProdName.Text = mercadoria.prodName;
+            lblNCM.Text = mercadoria.NCM;
+        }
+
+        protected override void OnAppearing()
+        {
+            mercadoria = App.MercadoriaModel.GetMercadoria(mercadoria.Id);
+
+            setData();
         }
     }
 }
